@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Flores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Flores</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li> <li><a href="sobre.html">Sobre</a></li> </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="produto">
+                <img src="orquidea.jpg" alt="Orquídea">
+                <h3>Orquídea</h3>
+                <p>As orquídeas são plantas da família Orchidaceae, conhecidas por sua beleza e variedade.</p>
+                <p><strong>Preço:</strong> A partir de R$20,00</p>
+                <a href="detalhes_orquidea.html">Saiba mais</a>
+            </div>
+            </section>
+
+        <section id="valores">
+            <h2>Nossos Valores</h2>
+            <ul>
+                <li>Qualidade</li>
+                <li>Atendimento personalizado</li>
+                <li>Sustentabilidade</li>
+            </ul>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <img src="foto_yasmim.jpg" alt="Yasmim, a florista">
+            <p>Minha paixão por flores começou muito tempo atrás...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Criado por Yasmim</p>
+    </footer>
+</body>
+</html>
